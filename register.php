@@ -68,7 +68,7 @@ var ck_id =  /^[A-Za-z0-9-]/;
             {
 
                 alert("UserID can only contain alphanumeric characters and hypehns(-)");
-
+		return false;
             }
 var lnam =  /^[A-Za-z]/;
 
@@ -76,7 +76,7 @@ var lnam =  /^[A-Za-z]/;
             {
 
                 alert("Lastname can only contain alphabet characters");
-
+		return false;
             }
 
 if(rpass == passid)
